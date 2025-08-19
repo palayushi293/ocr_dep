@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice OCR Uploader</title>
+</head>
+<body>
+    <h2>Upload Invoice Image</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="invoice" accept=".jpg,.jpeg,.png" required>
+        <button type="submit">Upload & Extract</button>
+    </form>
+</body>
+</html>
